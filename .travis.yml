@@ -2,3 +2,7 @@ language: node_js
 
 node_js:
   - "node"
+
+script:
+  - echo "jshint style test ..."
+  - node_modules/.bin/jshint src
